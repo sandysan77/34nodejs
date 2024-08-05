@@ -1,0 +1,44 @@
+{
+    "rooms": [
+        {
+            "id": 1,
+            "name": "Conference Room A",
+            "amenities": ["Projector", "Whiteboard", "Wi-Fi"],
+            "pricePerHour": 50,
+            "seatsAvailable": 20
+        },
+        {
+            "id": 2,
+            "name": "Conference Room B",
+            "amenities": ["TV Screen", "Whiteboard", "Wi-Fi"],
+            "pricePerHour": 40,
+            "seatsAvailable": 15
+        }
+    ],
+    "bookings": [
+        {
+            "id": 1,
+            "customerName": "John Doe",
+            "date": "2024-08-01",
+            "startTime": "10:00",
+            "endTime": "12:00",
+            "roomId": 1
+        },
+        {
+            "id": 2,
+            "customerName": "Jane Smith",
+            "date": "2024-08-01",
+            "startTime": "14:00",
+            "endTime": "16:00",
+            "roomId": 1
+        },
+        {
+            "id": 3,
+            "customerName": "Alice Johnson",
+            "date": "2024-08-02",
+            "startTime": "09:00",
+            "endTime": "11:00",
+            "roomId": 2
+        }
+    ]
+}
